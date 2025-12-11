@@ -97924,12 +97924,9 @@ while(!0){if(!(g<q&&g<4))break
 f=g+1
 h+=""+f+". "+s[g]+"\n"
 g=f}h=h+"\n"+(i+":\n")
-s=n.length
-e=0
-while(!0){if(!(e<4&&e<s))break
-d=e+1
-h+=""+d+". "+n[e]+"\n"
-e=d}}else{h=""
+for(s=n.length,e=0;e<4;e=d){d=e+1
+q=e<s?n[e]:""
+h+=""+d+". "+q+"\n"}}else{h=""
 if(s.gv(a1)>=2)for(e=0;e<2;++e){l=s.i(a1,e)
 h+=(e===0?c:b)+a
 q=l.d
